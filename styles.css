@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+/* Header styling to align logo-text and nav-bar */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo-text h2 {
+  font-size: 2em;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Navigation bar styling */
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+  color: #007bff;
+}
+
+/* Main content styling */
+main {
+  padding: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.head-text {
+  font-size: 2em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+}
+
+#blog {
+  text-align: left;
+}
+
+article {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+article img {
+  width: 20%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.article-content {
+  flex: 1;
+}
+
+article h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+article p {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+article a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
