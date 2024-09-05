@@ -66,6 +66,10 @@ main {
   width: 100%;
 }
 
+#blog {
+  text-align: left;
+}
+
 .head-text {
   font-size: 2em;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -76,10 +80,6 @@ main {
   font-weight: bolder;
   font-family: "Times New Roman", Times, serif;
   display: inline-block;
-}
-
-#blog {
-  text-align: left;
 }
 
 article {
@@ -120,5 +120,19 @@ article a {
 }
 
 article a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.future-content {
+  color: #007bff;
+  font-style: italic;
+  text-align: center;
   text-decoration: underline;
 }
